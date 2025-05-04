@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body id="form">
+    <form class="form1" id="form1">
+        <label for="name">Имя</label>
+        <input type="name" id="name" name="name" required>
+        <small id="nameError" class="error-message"></small>
+
+        <label for="Email">Email</label>
+        <input type="Email" id="Email" name="Email" required>
+        <small id="EmailError" class="error-message"> </small>
+
+        <label for="password">Введите пароль:</label>
+        <input type="password" id="password" name="password" required>
+        <small id="passwordError" class="error-message"></small>
+
+        <label for="confirmPassword">Подтвердите пароль:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <small id="confirmPasswordError" class="error-message"></small>
+
+        <label for="gebnder">Пол</label>
+        <select name="gebnder" id="gebnder"> 
+            <option value="male">Муж.</option>
+            <option value="female">Жен.</option>
+        </select>
+        <label for="number"></label>
+        <input type="number" id="Age" min="18" max="100">
+
+        <label for="message">Интересы</label>
+        <textarea name="message" id="message"></textarea>
+
+        <button type="submit" ><a href="" id="submitBtnImage">Отправить</a></button>
+    </form> 
+
+
+    <script src="login.page.js"></script>
+</body>
+</html>
